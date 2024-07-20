@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Chat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Video Chat</h1>
+        <div class="video-container">
+            <div class="video-box">
+                <h2>Local Video</h2>
+                <video id="localVideo" autoplay muted></video>
+            </div>
+            <div class="video-box">
+                <h2>Remote Video</h2>
+                <video id="remoteVideo" autoplay></video>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="startButton">Start Video</button>
+            <button id="stopButton">Stop Video</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
